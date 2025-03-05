@@ -5,6 +5,8 @@
   text-align: center;
   font-size: 2.779em; /*61.136px for the h1, should be nice to look at on a phone.*/
   color: #4B3D2D;
+  width: 100%;
+  margin-top: 20px;
 }
 body {
   background-color: #E3D4B9;
@@ -14,6 +16,7 @@ h2 {
   font-size: 1.667em;
   padding: 5px 10px;
   margin: 0 auto;
+  margin-bottom: 20px;
   font-style: italic;
   color: #A67C4D;
   /*color: #4B3D2D; */
