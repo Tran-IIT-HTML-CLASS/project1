@@ -4,6 +4,7 @@
 #header {
   text-align: center;
   font-size: 2.779em; /*61.136px for the h1, should be nice to look at on a phone.*/
+  color: #4B3D2D;
 }
 body {
   background-color: #E3D4B9;
@@ -14,16 +15,18 @@ h2 {
   padding: 5px 10px;
   margin: 0 auto;
   font-style: italic;
+  color: #4B3D2D;
 }
 p {
   font-size: 1em;
+  color: #A67C4D;
 }
 /*Form components*/
 form {
   box-sizing: content-box;
   padding: 4rem 3rem;
   margin: 0 auto;
-  background-color: #A67C4D;
+  background-color: #D9CBA0;
 }
 label {
 
@@ -32,13 +35,13 @@ input[type="text"], input[type="email"], input[type="date"], input[type="tel"] {
 
 }
 fieldset {
-  border: 1px solid #D3D3D3;
+  border: 1px solid #8B5B29;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
 legend {
   box-sizing: border-box; /* 1 */
-  color: inherit; /* 2 */
+  color: #4B3D2D; /* 2 */
   display: table; /* 1 */
   max-width: 100%; /* 1 */
   padding: 0; /* 3 */
