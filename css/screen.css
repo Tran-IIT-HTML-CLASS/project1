@@ -29,7 +29,10 @@ form {
   background-color: #D9CBA0;
 }
 label {
-
+  display: block;
+  width: auto;
+  text-align: center;
+  padding: 15px 5%;
 }
 input[type="text"], input[type="email"], input[type="date"], input[type="tel"] {
 
