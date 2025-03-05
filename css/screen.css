@@ -1,18 +1,19 @@
 #wrapper {
 
 }
+#header {
+  text-align: center;
+  font-size: 1.375em;
+}
 body {
 
 }
-
 label {
 
 }
-
 input[type="text"], input[type="email"], input[type="date"], input[type="tel"] {
 
 }
-
 /*Media queries for screen sizes*/
 @media only screen and (min-width:601px) {
 
