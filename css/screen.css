@@ -15,11 +15,12 @@ h2 {
   padding: 5px 10px;
   margin: 0 auto;
   font-style: italic;
-  color: #4B3D2D;
+  color: #A67C4D;
+  /*color: #4B3D2D; */
 }
 p {
   font-size: 1em;
-  color: #A67C4D;
+  color: #4B3D2D;
 }
 /*Form components*/
 form {
@@ -35,7 +36,13 @@ label {
   padding: 15px 5%;
 }
 input[type="text"], input[type="email"], input[type="date"], input[type="tel"] {
-
+  font-family: "Inter", "Helvetica", sans-serif; /* Change this font family later... */
+  width: 50%; /* Fix the width in revision, should not have all widths be the same. */
+  padding: 12px;
+  margin: 10px 0;
+  font-size: 1rem;
+  box-sizing: border-box;
+  text-align: left; /* Align text to left */
 }
 fieldset {
   border: 1px solid #8B5B29;
