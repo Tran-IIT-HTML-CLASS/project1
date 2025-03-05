@@ -1,18 +1,24 @@
-#wrapper {
+#content {
 
 }
 #header {
   text-align: center;
-  font-size: 1.375em;
+  font-size: 2.779em; /*61.136px for the h1, should be nice to look at on a phone.*/
 }
 body {
 
 }
+/*Form components*/
 label {
 
 }
 input[type="text"], input[type="email"], input[type="date"], input[type="tel"] {
 
+}
+fieldset {
+  border: 1px solid #D3D3D3;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
 }
 /*Media queries for screen sizes*/
 @media only screen and (min-width:601px) {
