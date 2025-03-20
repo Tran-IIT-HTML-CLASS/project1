@@ -13,7 +13,14 @@ body {
   background-color: #E3D4B9;
 }
 div {
+  display: block;
   padding: 5%;
+  margin: 0 auto;
+  height: 25%;
+  width: 0 auto;
+}
+.main {
+  padding: 0;
   margin: 0 auto;
 }
 h2 {
@@ -43,7 +50,6 @@ label {
   display: block;
   width: auto;
   text-align: center;
-  padding: 15px 5%;
 }
 input[type="text"], input[type="email"], input[type="date"], input[type="tel"], input[type="time"] {
   font-family: "Inter", "Helvetica", sans-serif; /* Change this font family later... */
@@ -55,8 +61,10 @@ input[type="text"], input[type="email"], input[type="date"], input[type="tel"], 
   text-align: center; /*Text should align where appropriate, so I'm experimenting with that.*/
 }
 #book-section {
-  width: auto;
+  width: 100%;
+  height: 200px;
   overflow: auto;
+  text-align: left;
 }
 fieldset {
   border: 1px solid #8B5B29;
