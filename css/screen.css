@@ -5,23 +5,20 @@
   width: 100%;
   margin-top: 20px;
 }
-html {
-  height: auto;
-  width: auto;
-}
 body {
   background-color: #E3D4B9;
 }
 div {
   display: block;
-  padding: 5%;
+  padding: 25px;
   margin: 0 auto;
-  height: 25%;
-  width: 0 auto;
+  height: 10%;
+  width: auto;
 }
 .main {
   padding: 0;
   margin: 0 auto;
+  height: 100%;
 }
 h2 {
   text-align: center;
@@ -34,8 +31,10 @@ h2 {
   /*color: #4B3D2D; */
 }
 p {
-  font-size: 1em;
+  font-size: 1rem;
   color: #4B3D2D;
+  text-align: center;
+  padding: 5px;
 }
 /*Form components*/
 form {
@@ -53,12 +52,17 @@ label {
 }
 input[type="text"], input[type="email"], input[type="date"], input[type="tel"], input[type="time"] {
   font-family: "Inter", "Helvetica", sans-serif; /* Change this font family later... */
-  width: 250px; /* Fix the width in revision, should not have all widths be the same. */
+  width: 250px;
   padding: 12px;
   margin: 10px 0;
   font-size: 1rem;
   box-sizing: border-box;
   text-align: center; /*Text should align where appropriate, so I'm experimenting with that.*/
+}
+input[type="radio"] {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  margin-right: 10px;
 }
 #book-section {
   width: 100%;
@@ -86,8 +90,11 @@ legend {
     width: 100%;
     margin: 0 auto;
   }
+  #header {
+    font-size: 3.375rem;
+  }
   form {
-    box-sizing: content-box;
+    box-sizing: border-box;
     margin: 0 auto;
     padding: 3rem 2rem;
     width: auto;
@@ -99,7 +106,20 @@ legend {
     border: 5px groove;
   }
   legend {
-    font-size: 1.5em;
+    font-size: 2.25em;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  label {
+    font-size: 1.5rem;
+  }
+  body {
+    margin-bottom: 0;
+  }
+  html {
+    margin-bottom: -16px;
+    padding-bottom: 0;
   }
 }
 @media only screen and (min-width:992px) {
