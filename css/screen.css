@@ -86,7 +86,7 @@ legend {
 /*Media queries for screen sizes*/
 @media only screen and (min-width:601px) {
   .main {
-    display: block; /*These are placeholders until I can properly change them.*/
+    display: block;
     width: 100%;
     margin: 0 auto;
     height: 100%;
@@ -125,5 +125,50 @@ legend {
   }
 }
 @media only screen and (min-width:992px) {
-
+  .main {
+    display: block; /*These are placeholders until I can properly change them.*/
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+  }
+  #header {
+    font-size: 5.063em;
+  }
+  h2 {
+    font-size: 3.375em;
+  }
+  form {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding-left: 48px; /*3rem 2rem is 48px 32px*/
+    padding-bottom: 25%; /*This is the fix to remove the gap at the bottom*/
+    width: auto;
+    height: 100%;
+  }
+  fieldset {
+    display: block;
+    margin: 15px;
+    border: 5px groove;
+  }
+  legend {
+    font-size: 2.25em;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  label {
+    font-size: 1.5rem;
+  }
+  body {
+    margin-bottom: 0;
+  }
+  html {
+    margin-bottom: -16px;
+    padding-bottom: 0;
+  }
+  input[type="radio"] {
+    font-size: 1rem;
+    margin-bottom: 2%;
+    margin-right: 10px;
+  }
 }
