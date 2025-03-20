@@ -68,7 +68,20 @@ legend {
   .main {
     display: block; /*These are placeholders until I can properly change them.*/
     width: 100%;
+    margin: 0 auto;
   }
+  form {
+    box-sizing: content-box;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    width: auto;
+  }
+  fieldset {
+    display: block;
+    margin: 15px;
+    border: 5px groove;
+  }
+  
 }
 @media only screen and (min-width:992px) {
   input {
