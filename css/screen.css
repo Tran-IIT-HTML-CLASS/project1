@@ -89,6 +89,7 @@ legend {
     display: block; /*These are placeholders until I can properly change them.*/
     width: 100%;
     margin: 0 auto;
+    height: 100%;
   }
   #header {
     font-size: 3.375rem;
@@ -96,7 +97,8 @@ legend {
   form {
     box-sizing: border-box;
     margin: 0 auto;
-    padding: 3rem 2rem;
+    padding-left: 48px; /*3rem 2rem is 48px 32px*/
+    padding-bottom: 25%; /*This is the fix to remove the gap at the bottom*/
     width: auto;
     height: 100%;
   }
