@@ -16,26 +16,26 @@
       <div>
         <fieldset>
           <legend>Personal Information</legend>
-          <div class="main"><label>Name: <input type="text"  placeholder="FIRST NAME, LAST NAME"></label></div>
+          <div class="main"><label>Name: <input type="text" required placeholder="FIRST NAME, LAST NAME"></label></div>
           <div class="main"><label>Email: <input type="email" required autocomplete="email" placeholder="example@email.com"></label></div>
-          <div class="main"><label>Phone: <input type="tel" placeholder="123-456-789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></label></div>
+          <div class="main"><label>Phone: <input type="tel" required placeholder="123-456-789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></label></div>
         </fieldset>
       </div>
       <div>
         <fieldset>
           <legend>Time and Date</legend>
-          <div class="main"><label>Preferred Date and Time: <input type="datetime-local"></label></div>
+          <div class="main"><label>Preferred Date and Time: <input type="datetime-local" required></label></div>
           <p>Please Select Donation Method: </p>
-          <div class="main"><label>Walk-in with box<input type="radio"></label></div>
-          <div class="main"><label>Curbside pickup<input type="radio"></label></div>
-          <div class="main"><label>Shipping<input type="radio"></label></div>
+          <div class="main"><label>Walk-in with box<input type="radio" required></label></div>
+          <div class="main"><label>Curbside pickup<input type="radio" required></label></div>
+          <div class="main"><label>Shipping<input type="radio" required></label></div>
         </fieldset>
       </div>
       <div>
         <fieldset>
           <legend>Book Information</legend>
           <p>In this section, please note down the Title and Author of the books you will be donating in the format: [TITLE], (AUTHOR).</p>
-          <div class="main"><label>Donated Books: <input id="book-section" type="text"></label></div> <!--This should be like a big box to type in.-->
+          <div class="main"><label>Donated Books: <input id="book-section" type="text" required></label></div> <!--This should be like a big box to type in.-->
           <div id="submit"><input type="submit" value="Let's Start!"></div>
         </fieldset>
       </div>
