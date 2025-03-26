@@ -1,3 +1,4 @@
+/* jshint esversion: 6 */
 jQuery(function($) {
   // Change class to indicate JS is enabled
   $('html').removeClass('nojs');
