@@ -13,7 +13,7 @@ div {
   padding: 25px;
   margin: 0 auto;
   height: 10%;
-  width: auto;
+  width: 90%;
 }
 .main {
   padding: 0;
@@ -50,9 +50,9 @@ label {
   width: auto;
   text-align: center;
 }
-input[type="text"], input[type="email"], input[type="date"], input[type="tel"], input[type="time"] {
+input[type="text"], input[type="email"], input[type="date"], input[type="tel"], input[type="datetime-local"] {
   font-family: "Inter", "Helvetica", sans-serif; /* Change this font family later... */
-  width: 250px;
+  width: 90%;
   padding: 12px;
   margin: 10px 0;
   font-size: 1rem;
@@ -61,8 +61,8 @@ input[type="text"], input[type="email"], input[type="date"], input[type="tel"], 
 }
 input[type="radio"] {
   font-size: 1rem;
-  margin-bottom: 10px;
-  margin-right: 10px;
+  transform: scale(2);
+  margin-left: 10px;
 }
 #book-section {
   width: 100%;
